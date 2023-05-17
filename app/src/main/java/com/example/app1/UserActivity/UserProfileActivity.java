@@ -10,7 +10,7 @@ import com.example.app1.R;
 
 public class UserProfileActivity extends AppCompatActivity {
 
-    String prdetails[] = {"User info","My past reservations", "Favorites" ,"Customer Service","About our App"};
+    String prdetails[] = {"User info","My reservations", "Favorites" ,"Customer Service","About our App"};
     ListView listview;
 
     @Override
