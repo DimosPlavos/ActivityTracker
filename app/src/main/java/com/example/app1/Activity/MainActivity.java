@@ -4,23 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.app1.Adaptor.CategoryAdaptor;
 import com.example.app1.Adaptor.PopularAdaptor;
-import com.example.app1.BusinessActivity.MainBusiness;
+import com.example.app1.ConnectActivity.SigninupActivity;
 import com.example.app1.Domain.CategoryDomain;
 import com.example.app1.Domain.PopularDomain;
-import com.example.app1.Domain.Store;
 import com.example.app1.R;
-import com.example.app1.UserActivity.GetTheMap;
 import com.example.app1.UserActivity.UserProfileActivity;
 
 import java.util.ArrayList;
@@ -50,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements SelectListener{
         textbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(MainActivity.this, MainBusiness.class);
+                Intent intent2 = new Intent(MainActivity.this, SigninupActivity.class);
                 startActivity(intent2);
             }
         });

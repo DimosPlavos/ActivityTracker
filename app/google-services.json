@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589134504491",
+    "project_id": "resta-4724a",
+    "storage_bucket": "resta-4724a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589134504491:android:f19287765d668a7582006e",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589134504491-aesd7bt4hs6ib680tgdb6mu4t49fkjdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGmfu3d_NL-s2nPbB0LBg8mV0hVPYYgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589134504491-aesd7bt4hs6ib680tgdb6mu4t49fkjdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
