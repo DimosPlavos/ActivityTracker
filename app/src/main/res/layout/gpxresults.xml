@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="275dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/uploadbackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultsTitle" >
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="141dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:text="Your distance is:"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="125dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="40dp"
+            android:text="Your speed is:"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/distance"
+            app:layout_constraintTop_toBottomOf="@+id/distance" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="149dp"
+            android:layout_height="23dp"
+            android:text="Your total time is:"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/climb"
+            app:layout_constraintStart_toStartOf="@+id/speed"
+            app:layout_constraintTop_toBottomOf="@+id/speed" />
+
+        <TextView
+            android:id="@+id/climb"
+            android:layout_width="157dp"
+            android:layout_height="21dp"
+            android:layout_marginBottom="10dp"
+            android:text="Your total climb is:"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/distance" />
+
+        <TextView
+            android:id="@+id/distance_result"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/distance"
+            app:layout_constraintStart_toEndOf="@+id/distance" />
+
+        <TextView
+            android:id="@+id/speed_result"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/speed"
+            app:layout_constraintStart_toEndOf="@+id/speed" />
+
+        <TextView
+            android:id="@+id/time_result"
+            android:layout_width="112dp"
+            android:layout_height="19dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/time"
+            app:layout_constraintStart_toEndOf="@+id/time" />
+
+        <TextView
+            android:id="@+id/climb_result"
+            android:layout_width="106dp"
+            android:layout_height="17dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/climb"
+            app:layout_constraintStart_toEndOf="@+id/climb" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/resultsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="RESULTS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
